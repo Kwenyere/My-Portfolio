@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+a{
+    list-style:none;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: yellow;
+    margin: 3rem;
+    
+}
+
+.profile{
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    margin-top: 5rem;
+}
+
+.profile-pic{
+    width: 20vw;
+    border-radius: 50%;
+    margin-left: 3rem;
+}
+
+.profile-text{
+    color: yellow;
+    margin: 5rem 0 0 3rem;
+}
+
+.experience{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: yellow;
+    margin-top: 3rem;
+}
+
+.experience-title{
+    color: yellow;
+    text-align: center;
+}
